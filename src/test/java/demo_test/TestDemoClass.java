@@ -10,7 +10,7 @@ public class TestDemoClass {
 	DemoClass obj=new DemoClass();   
 	@Test  
 	public void testSum() {  
-	    assertEquals(4,obj.sum(1, 3));  
+	    assertEquals(4,obj.sum(8,8));  
 	         }  
 
 }

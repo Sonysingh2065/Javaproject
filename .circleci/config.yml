@@ -1,7 +1,7 @@
 version: 2.1
 
- workflows:
-   test-deploy:
+ workflows: 
+   test-deploy: 
       jobs:
           - test
           
@@ -14,4 +14,4 @@ version: 2.1
     steps:
       - checkout
       - run: java --version
-      - run: node --version
+      
